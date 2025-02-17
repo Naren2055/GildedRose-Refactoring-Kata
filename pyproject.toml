@@ -1,0 +1,18 @@
+package-mode = false
+
+[tool.poetry]
+name = "gildedrose"
+version = "1"
+description = ""
+authors = ["Naren"]
+license = "-"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+pydantic = "^2.10.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
